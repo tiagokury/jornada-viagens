@@ -1,39 +1,24 @@
 .categories-cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 64px;
 }
 
-.categories-cards a {
-    display: inline-block;
-    width: 312px;
-    height: 220px;
-    text-decoration: none; 
+.categories-cards .card {
+  width: 312px;
+  height: 220px;
+  background-color: var(--background-secondary-color);
+  text-align: center;
+  color: var(--text-primary-color);
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  border-radius: 16px;
 }
 
-.category {
-    width: 312px;
-    height: 220px;
-    background-color: var(--background-secondary-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    border-radius: 8px;
-}
-
-.category header {
-    background-color: transparent;
-    padding: 0;
-    margin-top: 41px;
-}
-
-.category h3 {
-   font-size: 28px;
-   font-weight: var(--title-weight);
-   color: var(--text-primary-color);
-   margin: 0;
-   text-align: center;
-
+.categories-cards .card h3 {
+    font-size: 28px;
+    font-weight: var(--title-weight);
 }
